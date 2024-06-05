@@ -1,9 +1,9 @@
 const meeting = (liste) => {
-    return liste.reduce((x, repas)) => {
-    const regime = x.Repas;
-    return x;
-    }
-}
+    return liste.reduce((liste, repas) => {
+    const regime = liste.Repas;
+    return liste;
+    })
+};
 
 var list1 = [
     {FirstName: 'Noah', lastName: 'M.', pays: 'Suisse', continent: 'Europe', age: 19, langue: 'C', Repas: 'végétarien'},

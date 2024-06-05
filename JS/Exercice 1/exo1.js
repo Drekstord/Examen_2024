@@ -1,7 +1,7 @@
 
-const calculer_pourboire = (montant, qualite) => {
+const calculerPourboire = (montant, qualite) => {
 
-    const liste_pourboires = {
+    const listePourboires = {
     Terrible : 0,
     Poor : 5,
     Good : 10,
@@ -9,14 +9,14 @@ const calculer_pourboire = (montant, qualite) => {
     Excellent : 20
     };
 
-    if (!(qualite) in liste_pourboires) {
+    if (!(qualite) in listePourboires) {
         return "Rating not recognised";
     }
     
-    const pourcent_pourboire = qualite / 100 ;
+    const pourcentPourboire = qualite / 100 ;
     const pourboire = montant * qualite ;
 
     return pourboire
 }  
 
-console.log(calculer_pourboire(20, 20));
+console.log(calculerPourboire(20, 20));
