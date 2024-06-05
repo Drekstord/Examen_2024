@@ -1,23 +1,23 @@
 package POO;
 
-import java.util.Date;
+// import java.util.Date;
 
 public class Etudiant extends Individu {
-	private Date dateInscription;
+	private int dateInscription;
 	private String niveauEtude;
 
-	public Etudiant(String nom, String prenom, int identifiant, Date dateInscription, String niveauEtude) {
+	public Etudiant(String nom, String prenom, int identifiant, int dateInscription, String niveauEtude) {
 		super(nom, prenom, identifiant);
 		this.dateInscription = dateInscription;
 		this.niveauEtude = niveauEtude;
 
 	}
 
-	public Date getDateInscription() {
+	public int getDateInscription() {
 		return dateInscription;
 	}
 
-	public void setDateInscription(Date dateInscription) {
+	public void setDateInscription(int dateInscription) {
 		this.dateInscription = dateInscription;
 	}
 
