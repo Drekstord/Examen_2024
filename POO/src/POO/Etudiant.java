@@ -30,6 +30,10 @@ public class Etudiant extends Individu {
 	}
 
 	public void montrerDetails() {
-
+		System.out.println("Le nom de l'élève est : " + getNom());
+		System.out.println("Le prénom de l'élève est : " + getPrenom());
+		System.out.println("L'identifiant de l'élève est : " + getIdentifiant());
+		System.out.println("La date d'inscription de l'élève est : " + getDateInscription());
+		System.out.println("Le niveau d'étude de l'élève est : " + getNiveauEtude());
 	}
 }
