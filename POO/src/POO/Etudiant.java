@@ -1,6 +1,6 @@
 package POO;
 
-// import java.util.Date;
+// Par manque de temps, date d'inscription est en int
 
 public class Etudiant extends Individu {
 	private int dateInscription;
