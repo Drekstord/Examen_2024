@@ -1,0 +1,6 @@
+const motLePlusLong = (phrase) => {
+
+    
+
+
+}

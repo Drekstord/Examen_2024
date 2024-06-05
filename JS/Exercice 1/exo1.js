@@ -19,4 +19,4 @@ const calculer_pourboire = (montant, qualite) => {
     return pourboire
 }  
 
-console.log(calculer_pourboire(20, Terrible));
+console.log(calculer_pourboire(20, 20));
