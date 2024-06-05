@@ -2,9 +2,9 @@ package POO;
 
 import java.util.Date;
 
-public abstract class Etudiant extends Individu {
-	public Date dateInscription;
-	public String niveauEtude;
+public class Etudiant extends Individu {
+	private Date dateInscription;
+	private String niveauEtude;
 
 	public Etudiant(String nom, String prenom, int identifiant, Date dateInscription, String niveauEtude) {
 		super(nom, prenom, identifiant);
@@ -13,4 +13,23 @@ public abstract class Etudiant extends Individu {
 
 	}
 
+	public Date getDateInscription() {
+		return dateInscription;
+	}
+
+	public void setDateInscription(Date dateInscription) {
+		this.dateInscription = dateInscription;
+	}
+
+	public String getNiveauEtude() {
+		return niveauEtude;
+	}
+
+	public void setNiveauEtude(String niveauEtude) {
+		this.niveauEtude = niveauEtude;
+	}
+
+	public void montrerDetails() {
+
+	}
 }
