@@ -27,6 +27,14 @@ public abstract class Individu {
 		this.prenom = prenom;
 	}
 
-	public void montrerDetails()
+	public int getIdentifiant() {
+		return identifiant;
+	}
+
+	public void setIdentifiant(int identifiant) {
+		this.identifiant = identifiant;
+	}
 	
+	public abstract void montrerDetails();
+
 }
